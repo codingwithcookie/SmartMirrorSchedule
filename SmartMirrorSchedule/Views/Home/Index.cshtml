@@ -1,0 +1,31 @@
+﻿@model IList<SmartMirrorSchedule.Data.ViewModels.ScheduleViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row ">
+    <div class="col-sm-10">
+        <h1 class="title">SQL Saturday Vancouver @Model[0].Time</h1>
+    </div>
+</div>
+<hr />
+
+    @foreach (var item in Model)
+            {
+        <div class="row">
+            <div class="col-md-12">                
+                <h1>@item.Title</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2><i>@item.Speaker</i></h2>
+            </div>
+            <div class="col-sm-4 center">
+                <h2>@item.Category</h2>
+            </div>
+            <div class="col-sm-4 right">
+                <h2>@item.Location</h2>
+            </div>
+        </div>
+        <hr />
+    }

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartMirrorSchedule.Web", "SmartMirrorSchedule\SmartMirrorSchedule.Web.csproj", "{6338DD7F-402B-42D9-AABA-A241B933EEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartMirrorSchedule.Data", "SmartMirrorSchedule.Data\SmartMirrorSchedule.Data.csproj", "{A09705B6-EB0E-4578-97B8-07EEA673613E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6338DD7F-402B-42D9-AABA-A241B933EEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6338DD7F-402B-42D9-AABA-A241B933EEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6338DD7F-402B-42D9-AABA-A241B933EEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6338DD7F-402B-42D9-AABA-A241B933EEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09705B6-EB0E-4578-97B8-07EEA673613E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09705B6-EB0E-4578-97B8-07EEA673613E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09705B6-EB0E-4578-97B8-07EEA673613E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09705B6-EB0E-4578-97B8-07EEA673613E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D75E3DF-B107-4146-BAE5-2BFA6A83FB2A}
+	EndGlobalSection
+EndGlobal
